@@ -1,0 +1,30 @@
+h1 {
+    background-color: violet;
+    color: white;
+    text-align: center;
+}
+
+
+/* #class & id(attribute) 
+
+class;- same css apply on more than one element(#class)
+
+Id:-single instance of the class.
+
+*/
+ol,
+li {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+body {
+    background-color: violet;
+}

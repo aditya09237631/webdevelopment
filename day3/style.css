@@ -1,0 +1,32 @@
+h1 {
+    color: blue;
+    background-color: white;
+    text-align: center;
+}
+
+table,
+tr,
+td,
+th {
+    border: 2px solid blue;
+    border-collapse: collapse;
+    /* for merge row or coloumn line */
+
+}
+
+table {
+    width: 100%;
+    margin: 20px;
+
+}
+
+td {
+    text-align: center;
+    /* data in the center */
+}
+
+th,
+td {
+    padding: 10px;
+    /* used for         */
+}
