@@ -1,0 +1,36 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e2f, #3b3b58);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.watch {
+    color: #00ffcc;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border: 2px solid #00ffcc;
+    border-radius: 15px;
+    font-size: 6vw;
+    font-weight: bold;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.5);
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    .watch {
+        font-size: 10vw;
+        padding: 15px 25px;
+    }
+}
